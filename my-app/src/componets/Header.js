@@ -10,9 +10,9 @@ export class Header extends Component {
         return (
 
 <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand>Drinks</Navbar.Brand>
+        <Navbar.Brand>Cocotail APp</Navbar.Brand>
           <Link to="/">Home</Link>
-          <Link to="/fav">fav</Link>
+          <Link to="/fav">Favorite</Link>
       </Navbar>
         )
     }
