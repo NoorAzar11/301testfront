@@ -13,7 +13,7 @@ export class FavPageCard extends Component {
               <Card.Text>
               {this.props.item.drinks.strDrink}
               </Card.Text>
-              <Button variant="primary" onClick={()=>this.props.deleteFun(this.props.item)}> Delete</Button>
+              <Button variant="primary" onClick={()=>this.props.deleteFun(this.props.item.drinks.idDrink)}> Delete</Button>
               <Button variant="primary"  onClick={()=>this.props.showModal(this.props.item)}> Update</Button>
             </Card.Body>
           </Card> 
